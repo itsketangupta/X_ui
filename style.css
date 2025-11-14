@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-/* Floating Action Button styles */
 :root {
   --fab: 64px;
   --item: 56px;
@@ -8,7 +7,6 @@
   --blue: #1d9bf0;
 }
 
-/* ===== FLOATING ACTION BUTTON ===== */
 .fab {
   position: fixed;
   right: 16px;
@@ -1346,7 +1344,6 @@ bluetext {
   transition: 0.3s all;
 }
 
-
 .profile-grok-summary {
   display: flex;
   padding-left: 1rem;
@@ -1670,42 +1667,254 @@ bluetext {
   .cards {
     position: absolute;
     top: 0.5rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.17);
   }
 
   .cards2 {
     position: absolute;
     top: 28rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.17);
   }
 
   .cards3 {
     position: absolute;
     top: 59rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.17);
   }
 
   .cards4 {
     position: absolute;
     top: 88rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.17);
   }
 
   .cards5 {
     position: absolute;
     top: 197rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.17);
   }
 
   .cards6 {
     position: absolute;
     top: 197rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.17);
   }
 
   .cards7 {
     position: absolute;
     top: 197rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.17);
+  }
+}
+
+@media (max-width: 463px) {
+  .cards .post-profile-name,
+  .cards .post-username,
+  .cards .post-time,
+  .cards2 .post-profile-name,
+  .cards2 .post-username,
+  .cards2 .post-time {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 428px) {
+  .cards .post-blue-tick,
+  .cards2 .post-blue-tick {
+    margin-left: -1rem;
+  }
+}
+
+@media (max-width: 411px) {
+  .cards .post-text,
+  .cards2 .post-text {
+    font-size: 0.85rem;
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 407px) {
+  .post-pucture {
+    height: auto !important;
+    width: 18rem !important;
+    margin-left: 4rem !important;
+  }
+
+  .cards2 {
+    position: absolute;
+    top: 18rem;
+  }
+  .cards3 {
+    position: absolute;
+    top: 40rem;
+  }
+
+  .cards3 .post-pucture {
+    margin-top: 3rem;
+  }
+  .cards4 {
+    position: absolute;
+    top: 60.5rem;
+  }
+  .cards5 {
+    position: absolute;
+    top: 88.5rem;
+  }
+  .cards6 {
+    position: absolute;
+    top: 111.5rem;
+  }
+  .cards7 {
+    position: absolute;
+    top: 144.5rem;
+  }
+  .post-time {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .cards6 .post-profile-name,
+  .cards6 .post-username,
+  .cards6 .post-time,
+  .cards7 .post-profile-name,
+  .cards7 .post-username,
+  .cards7 .post-time {
+    font-size: 0.9rem;
+  }
+  .post-pucture {
+    width: 16rem !important;
+    margin-left: 3rem !important;
+  }
+  .cards2 {
+    margin-top: -1rem;
+  }
+  .cards3 {
+    margin-top: -2.5rem;
+  }
+  .cards4 {
+    margin-top: -3.5rem;
+  }
+  .cards5 {
+    margin-top: -5.5rem;
+  }
+  .cards6 {
+    margin-top: -7rem;
+  }
+  .cards7 {
+    margin-top: -9rem;
+  }
+}
+
+@media (max-width: 371px) {
+  .cards4 .post-pucture {
+    margin-top: 2rem;
+  }
+
+  .cards4 .post-text {
+    margin-top: 1.5rem;
+  }
+
+  .cards5 {
+    position: absolute;
+    top: 89.5rem;
+  }
+  .cards6 {
+    position: absolute;
+    top: 112.5rem;
+  }
+
+  .cards6 .post-pucture {
+    margin-top: 2rem;
+  }
+  .cards6 .post-text {
+    margin-top: 1rem;
+  }
+  .cards7 {
+    position: absolute;
+    top: 143.5rem;
+  }
+  .cards7 .post-text{
+    margin-top: 1rem;
+  }
+  .post-icons {
+    width: 100vw;
+    margin-left: 0rem;
+  }
+  .post-icon{
+    width: 1.2rem;
+  }
+}
+
+@media (max-width: 358px) {
+  .cards .post-blue-tick {
+    margin-left: 1rem;
+  }
+  .cards .post-text {
+    margin-top: 1.5rem;
+  }
+  .cards2 .post-blue-tick {
+    margin-left: 1rem;
+  }
+  .cards2 .post-text {
+    margin-top: 1.9rem;
+  }
+}
+
+@media (max-width: 348px) {
+  .cards3 .post-pucture {
+    margin-top: 2rem;
+  }
+  .cards3 {
+    position: absolute;
+    top: 41.5rem;
+  }
+
+  .cards2 .post-pucture{
+    margin-top: 5.4rem;
+  }
+}
+
+@media (max-width: 317px) {
+  .cards {
+    margin-top: -1.3rem;
+  }
+}
+
+@media (max-width: 313px) {
+  .post-pucture{
+    width: 70vw !important;
+    margin-left: 15vw !important;
+  }
+  .cards2 {
+    position: absolute;
+    top: 16rem;
+  }
+  .cards3 {
+    position: absolute;
+    top: 38.5rem;
+  }
+  .cards4 {
+    position: absolute;
+    top: 56.5rem;
+  }
+  .cards5 {
+    position: absolute;
+    top: 83.5rem;
+  }
+  .cards6 {
+    position: absolute;
+    top: 104.8rem;
+  }
+  .cards7 {
+    position: absolute;
+    top: 133rem;
+  }
+}
+
+@media (max-width: 301px) {
+  .cards .post-profile-name,
+  .cards2 .post-profile-name{
+    font-size: 0.75rem !important;
+  }
+}
+
+@media (max-width: 284px) {
+  .cards .post-text{
+    font-size: 0.75rem !important;
+    margin-top: 1.3rem !important;
   }
 }
